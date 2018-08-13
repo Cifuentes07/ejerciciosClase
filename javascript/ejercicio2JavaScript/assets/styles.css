@@ -1,0 +1,47 @@
+:root {
+  --favorite-color: #1DFE91;
+  --primary-color: #ea24ff;
+  --secundary-color: #45ff77;
+  --title-size: 40px;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h4 {
+  background-color: light-red;
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  background-color: pink;
+  width: 300px;
+  height: auto;
+
+}
+button {
+  border-radius: 40px;
+  background-color: var(--secundary-color);
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10 px;
+  transition: all .4s;
+}
+
+button:hover { /*mouse sobre el elemento*/
+  color: white;
+  background-color: var(--primary-color);
+}
+
+button:focus { /*último elemento seleccionado*/
+  border: 3px solid:black;
+  outline: none;
+}
+
+button:active { /*durante el click*/
+  margin-top: 5px;
+}

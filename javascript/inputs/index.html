@@ -1,0 +1,57 @@
+<!DOCTYPE .html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/styles.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Ejercicios</title>
+  </head>
+
+  <body>
+    <h1>Repaso</h1>
+
+
+      <form>
+        first name:<br>
+        <input type="text" name="firstname"><br>
+        user password:<br>
+        <input type="password" name="psw"><br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br><br>
+          <input type="submit"><br><br>
+        <input type="checkbox" name="vehiculo1" value="bike">yo tengo una bicicleta<br>
+        <input type="checkbox" name="vehiculo2" value="car">yo tengo un carro
+
+
+      </form>
+
+      <form action="#">
+        <label for="nombre">first name:</label><br>
+        <input id="nombre" type="text" name="firstname"><br>
+        <label for="apellido">last name:</label><br>
+        <input id="apellido" type="text" name="lastname"><br>
+        <input type="button" value="Nombre completo" onclick="nombreCompleto(this.form)">
+        <br><br>
+        
+        <input type="submit" value="submit">
+        <input type="reset">
+      </form>
+
+
+
+
+    <article>
+      <h4>piramide con asteriscos</h4>
+      <div>
+        <button onclick="crea()"> crea piramide </button>
+        <ul class="piramide">
+
+        </ul>
+      </div>
+    </article>
+
+    <article>
+
+    <script src="assets/scripts.js"></script>
+  </body>
+</html>

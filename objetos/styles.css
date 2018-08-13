@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#title {
+  margin-top: 30px;
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+
+h2 {
+  color: purple;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  width: 300px;
+  border: red 3px double;
+  background-color: white;
+}
+
+.image {
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+
+}
+
+.item {
+  width: 33%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Dead {
+
+  background-image: url("/img/redX.png");
+  padding: 40px;
+}
+
+.Dead img,
+.Dead h2 {
+  filter: grayscale(1);
+}
+
+.unknown {
+  border: 2px silver solid;
+}
+
+/*let poo = '';
+
+const user = {
+  name:'Gladys', añadir propiedad a un objeto 'user'
+  lastName: 'Cifuentes',
+  address: {    añadir propiedades a propiedades
+    street: '',
+    zipCode: '',
+    number: ''
+  },
+  alergies: [{},123,'',false,[]] arreglos
+};
+
+console.log(user);
+
+let array = [];
+
+console.log (array);
+
+[ arreglo ] */
